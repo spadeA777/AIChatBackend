@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "target": "es2021",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "pretty": true,
+    "baseUrl": "src",
+    "experimentalDecorators": true,
+    "strict": true,
+    "paths": {
+      "@/*": ["./*"]
+    },
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "test"]
+}
